@@ -1,0 +1,136 @@
+.navbar .navbar-brand {
+    font-family: cursive;
+}
+
+.navbar .form-control {
+    border-radius: 12px;
+}
+
+.jumbotron {
+    height: 500px;
+    background-image: url('img/header.jpg');
+    background-size: cover;
+}
+
+.jumbotron .display-4 {
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px 12px rgba(0, 0, 0, 0.5);
+    margin-top: 150px;
+    font-weight: 200;
+    font-size: 40px;
+}
+
+.jumbotron span {
+    font-weight: bold;
+}
+
+.layanan {
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    margin-top: -70px;
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.layanan img {
+    width: 70px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.layanan h4 {
+    font-size: 25px;
+    margin-top: -5px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.layanan p {
+    font-size: 17px;
+    color: #acacac;
+    margin-top: -5px;
+    font-weight: 200;
+}
+
+.produk .col-lg-3, .col-md-3, .col-sm-6{
+    margin-bottom: 40px;
+}
+
+.produk .card-text {
+    color: #acacac;
+}
+
+.about {
+    margin-bottom: 40px;
+}
+
+.about img {
+    width: 500px;
+    border-radius: 12px;
+}
+
+.about .col{
+    margin-top: 15px;
+    color: #acacac;
+    font-size: 17px;
+    text-align: center;
+}
+
+.foot {
+    color: white;
+}
+
+.foot img{
+    margin-right: 10px;
+    margin-top: 4px;
+}
+
+.foot .brand img{
+    margin-top: 5px;
+    margin-left: 290px;
+}
+
+.input {
+    margin-bottom: 20px;
+}
+
+
+@media (min-width: 992px) {
+    .navbar {
+        height: 60px;
+        font-size: 18px;
+    }
+
+    .navbar span {
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .navbar .form-control {
+        width: 600px;
+        height: 30px;
+    }
+
+    .jumbotron {
+        height: 600px;
+    }
+
+    .jumbotron .display-4 {
+        font-size: 60px;
+    }
+
+    .about .col{
+        text-align: left;
+    }
+
+    .foot .brand img{
+        margin-top: 5px;
+        margin-left: 390px;
+    }
+
+    .login{
+        margin-bottom: 130px;
+    }
+}
